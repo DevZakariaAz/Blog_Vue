@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Specify ECMAScript target version
+    "module": "esnext", // Specify module code generation
+    "strict": true, // Enable all strict type-checking options
+    "jsx": "preserve", // Preserve JSX for Vue
+    "moduleResolution": "node", // Use Node.js module resolution
+    "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
+    "baseUrl": ".", // Base directory to resolve non-relative module names
+    "paths": {
+      "@/*": ["resources/js/*"] // Allow importing from resources/js
+    }
+  },
+  "include": [
+    "resources/js/**/*.ts", // Include all TypeScript files in the resources/js directory
+    "resources/js/**/*.tsx" // Include all TSX files (if using JSX)
+  ],
+  "exclude": [
+    "node_modules", // Exclude node_modules
+    "public" // Exclude public directory
+  ]
+}
