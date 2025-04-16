@@ -1,0 +1,47 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.2",
+        "@tailwindcss/typography": "^0.5.16",
+        "@tailwindcss/vite": "^4.0.0",
+        "alpinejs": "^3.4.2",
+        "autoprefixer": "^10.4.21",
+        "axios": "^1.8.4",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.2.0",
+        "postcss": "^8.5.3",
+        "tailwindcss": "^3.4.17",
+        "vite": "^6.0.11"
+    },
+    "dependencies": {
+        "@primeuix/themes": "^1.0.0",
+        "@tiptap/extension-bold": "^2.11.7",
+        "@tiptap/extension-bullet-list": "^2.11.7",
+        "@tiptap/extension-character-count": "^2.11.7",
+        "@tiptap/extension-image": "^2.11.7",
+        "@tiptap/extension-italic": "^2.11.7",
+        "@tiptap/extension-link": "^2.11.7",
+        "@tiptap/extension-list-item": "^2.11.7",
+        "@tiptap/extension-ordered-list": "^2.11.7",
+        "@tiptap/extension-placeholder": "^2.11.7",
+        "@tiptap/extension-text-align": "^2.11.7",
+        "@tiptap/extension-underline": "^2.11.7",
+        "@tiptap/extension-youtube": "^2.11.7",
+        "@tiptap/pm": "^2.11.7",
+        "@tiptap/starter-kit": "^2.11.7",
+        "@tiptap/vue-3": "^2.11.7",
+        "@vitejs/plugin-vue": "^5.2.3",
+        "chart.js": "^4.4.8",
+        "daisyui": "^5.0.6",
+        "dompurify": "^3.2.5",
+        "pinia": "^3.0.1",
+        "primeflex": "^4.0.0",
+        "vue": "^3.5.13",
+        "vue-router": "^4.5.0"
+    }
+}
